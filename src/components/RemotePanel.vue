@@ -42,7 +42,7 @@ onBeforeMount(async () => {
 
 // websocket
 const initWebSocket = () => {
-  ws = new WebSocket(`ws://10.238.127.213:6503/conn/${data.account.id}`);
+  ws = new WebSocket(`ws://10.238.130.251:6503/conn/${data.account.id}`);
 
   ws.onopen = (e: Event) => {
     setInterval(() => {
